@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dum_txt h2{
+    color: rgb(44, 49, 54);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 20px 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: #77a2bf;
+    height: 500px;
+    
+}
+.in{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.label, .dum_txt h2{
+    color: rgb(44, 49, 54);
+}
+#btn{
+    height: 35px;
+    width: 100px;
+    border: 1px solid #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 5px;
+    outline: 0;
+    margin-left: 10px;
+    transition: .4s;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+}
+.results{
+    height: 485px;
+    width: 100%; 
+    background-color: rgb(59, 59, 59);
+    margin-top: 10px;
+     border-radius: 15px;
+     color: rgb(227, 221, 221);
+}
+/*=================Responsivs Part===================*/
+@media (max-width: 650px){
+    .dum_txt h2{
+        color: rgb(44, 49, 54);
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 470px){
+    .dum_txt h2{
+        color: rgb(44, 49, 54);
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #btn{
+        margin-top: 12px;
+        margin-left: 22px;
+    }
+    body{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        margin: 50px 80px;
+        text-align: center;
+        justify-content: center;
+        background-color: #77a2bf;
+    }
+}
+@media (max-width :400px){
+    .dum_txt h2{
+        color: rgb(44, 49, 54);
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+/*=================Responsivs Part===================*/
